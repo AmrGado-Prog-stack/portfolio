@@ -37,7 +37,7 @@ export default function Projects() {
         <FadeUp>
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground mb-4">
-              Featured Projects
+              Projects
             </h2>
             <div className="w-20 h-1 bg-accent mx-auto rounded-full" />
           </div>
@@ -83,7 +83,7 @@ export default function Projects() {
                     ))}
                   </ul>
                 </div>
-                <div className="flex flex-wrap items-center gap-3 pt-4 border-t border-border">
+                <div className="flex flex-wrap items-center gap-2 sm:gap-3 pt-4 border-t border-border">
                   {project.github && (
                     <Button variant="secondary" size="sm" asChild>
                       <a

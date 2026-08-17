@@ -76,9 +76,6 @@ export default function Hero() {
             variants={itemVariants}
             className="flex flex-wrap items-center gap-4"
           >
-            <Button asChild size="lg">
-              <Link href="#projects">View My Work</Link>
-            </Button>
             <Button asChild variant="secondary" size="lg">
               <Link href="/resume">
                 <Download className="h-4 w-4" />
@@ -124,7 +121,7 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
+      <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2">
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
