@@ -1,0 +1,55 @@
+import { Experience } from "@/types";
+
+export const experiences: Experience[] = [
+  {
+    id: "1",
+    role: "Front-End Developer",
+    company: "Advix Company",
+    period: "April 2025 – May 2026",
+    responsibilities: [
+      "Developed and maintained a Property Adviser Dashboard using Next.js and TypeScript.",
+      "Owned front-end delivery of 12+ data views used by 50+ property agents.",
+      "Accelerated listing management workflows by 30%.",
+      "Built a reusable responsive component library of 40+ components.",
+      "Reduced feature delivery time by 35%.",
+      "Integrated 20+ REST API endpoints.",
+      "Reduced API-related bugs by 40%.",
+      "Improved front-end performance using code splitting, lazy loading and memoization.",
+      "Reduced initial load time by 45%.",
+      "Improved Lighthouse score from 62 to 91.",
+      "Collaborated with backend developers and UI/UX designers in an Agile environment.",
+    ],
+  },
+  {
+    id: "2",
+    role: "React Developer",
+    company: "Egy.designer Company",
+    period: "November 2024 – March 2025",
+    achievements: [
+      "Delivered a multi-vendor e-commerce platform using React.js.",
+      "Supported 30+ vendors.",
+      "Worked across 15+ responsive page templates.",
+      "Contributed to a 25% increase in mobile conversion rate.",
+      "Implemented reusable UI components.",
+      "Implemented state management.",
+      "Integrated REST APIs for product, vendor and order data.",
+      "Improved mobile responsiveness across customer-facing pages.",
+    ],
+  },
+  {
+    id: "3",
+    role: "Flutter Developer",
+    company: "Msar Web Company",
+    period: "January 2023 – January 2024",
+    achievements: [
+      "Built and shipped a real-time multiplayer Ludo game using Flutter and Dart.",
+      "Targeted iOS and Android.",
+      "Reached 5,000+ downloads within 3 months.",
+      "Achieved a 4.3-star average rating.",
+      "Developed Shlnaha, an educational application.",
+      "Implemented class management and subscription workflows.",
+      "Integrated REST APIs.",
+      "Built a clean and maintainable architecture.",
+    ],
+  },
+];
